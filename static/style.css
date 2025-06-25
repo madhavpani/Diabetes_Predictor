@@ -1,0 +1,76 @@
+body {
+    background-color: lightslategray;
+    margin: auto;
+    text-align: center;
+    max-width: 40vw;
+}
+h1{
+    background-color: orangered;
+    color: white;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    padding: .5vw 0;
+    font-size: 3vw;
+    margin-bottom: .5vw;
+    margin-top: 0.5vw;
+}
+form{
+    background-color: lightseagreen;
+    color: black;
+    display: grid;
+    padding: 1%;
+}
+div{
+    display: flex;
+    margin: 0.5% auto;
+    width: 99%;
+}
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5vw;
+    font-weight: bold;
+    padding: 2%;
+    width: 50%;
+    background-color: black;
+    color: white;
+}
+input, select{
+    border: none;
+    width: 50%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.5vw;
+}
+.submit{
+    width: 100%;
+    padding: 1% 0;
+}
+.output{
+    width: 40vw;
+    height: 20vw;
+    background-color: lightskyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.output h1{
+    color: darkblue;
+    background: none;
+    text-shadow: 0.2vw 0.2vw 0.2vw white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+div a{
+    text-decoration: none;
+    text-align: center;
+    margin-top: 0.2vw;
+    color: orangered;
+    background-color: lightcyan;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 40vw;
+    padding: 2%;
+}
+div a:hover{
+    background-color: orangered;
+    color: lightcyan;
+}

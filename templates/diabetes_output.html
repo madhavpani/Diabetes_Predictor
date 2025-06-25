@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block header %}
+<h1>{% block title %}Diabetes Predictions{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+<div class="output">
+    <h1>DIABETES PROBABILITY = {{prediction}}%</h1>
+</div>
+<div>
+    <a href="/">Go Back</a>
+</div>
+{% endblock %}
